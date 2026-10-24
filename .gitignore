@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Data and generated artifacts
+data/raw/
+datasets/
+*.mat
+*.zip
+*.7z
+*.rar
+
+# Model binaries and large generated files
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*token*
+
+# OS/editor
+.DS_Store
+.vscode/
